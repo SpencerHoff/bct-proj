@@ -1,0 +1,152 @@
+
+/* Here you can start styling. ^_^*/
+a:hover{
+	color:#540b0e;
+}
+.navbar{
+	background-color:#335c67;
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:#fff3b0;
+	font-size: 150%;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+	color:#fff3b0;
+	font-size: 150%;
+}
+
+body {
+	background-color:rgb(250,250,250);
+	color:#fff3b0;
+}
+.logo{
+	height:50px;
+}
+
+#sone {
+	
+	min-height: 100vh;
+}
+
+.rowpad {
+	padding:1em 0;
+}
+
+#row1{
+	background-color:#335c67;
+	box-shadow: 0 0 10px 0 black;
+	margin-bottom:1rem;
+}
+
+table, tr, td, th {
+	padding:0.25rem 0.5rem;
+	border:none;
+	color:#fff3b0;
+
+}
+
+table {
+	width:100%;
+	
+}
+
+tr:nth-of-type(1){
+	background-color:#540b0e;
+}
+
+tr:nth-of-type(even) {
+	background-color:#0A2B2F;
+}
+
+#heroimg {
+	/*
+	background-color:orange;
+	background-image: url("../img/hero img.gif");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+	min-height:500px;
+	*/
+	text-align:center;
+	color:#fff3b0;
+	
+	width: 100%;
+	margin-bottom:2rem;
+	background-color:#540b0e;;
+	box-shadow: 0 0 10px 0 black;
+	padding:0.5rem 0;
+}
+
+#heroimg h1, h2 {
+	font-size:300%;
+	
+}
+
+
+.links{
+	/* background-color: rgba(40,40,40,0.3); */
+	background-color:#0A2B2F;
+	box-shadow: 0 0 10px 0 black;
+	padding: 1rem;
+}
+
+a{
+	color:#fff3b0;
+}
+
+#general {
+	
+}
+
+#social {
+	padding-left:2rem;
+	
+}
+#social a{
+	color:#335c67;
+}
+
+#twitter{
+
+}
+
+#pinterest{
+	
+	padding:10px;
+}
+
+
+.cardimg img{
+	width:100%;
+	
+	padding-bottom:0.5rem;
+}
+
+.cardimg p{
+	padding:0;
+	
+}
+
+#releases .cardimg{
+	background-color:#0A2B2F; 
+	padding:0.5em;
+	box-shadow: 0 0 5px 0 black;
+	
+	margin-bottom:1rem;
+	height:95%;
+}
+
+#releases h1{
+	text-align:center;
+	padding-bottom:1rem;
+}
+
+#footer {
+	background-color:#335c67;
+	padding:10px;
+	margin-top:10px;
+	font-size:100%;
+}
